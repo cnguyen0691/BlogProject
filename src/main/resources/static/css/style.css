@@ -6,7 +6,7 @@
 
 }
 .social-circle{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .social-network li {
     display: inline-block;
@@ -20,6 +20,9 @@
     background-color:#BD3518;
 }
 .social-network a.Linkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.:hover {
     background-color:#007bb7;
 }
 
@@ -60,5 +63,14 @@
     -o-transition: all 0.8s;
     -ms-transition: all 0.8s;
     transition: all 0.8s;
+
+}
+.study{
+    background-color: beige;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 9px;
+    color: antiquewhite;
+    margin: 10px 10px 12px;
 
 }
