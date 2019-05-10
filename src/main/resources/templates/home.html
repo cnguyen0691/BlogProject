@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Home </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!--Using navigation bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Blog Project</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/home">Blog Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link " href="/Authors">Authors</a>
+            </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Bootcamp <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/home">Bootcamp <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">GitHub</a>
+                <a class="nav-link" href="/github">GitHub</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="/OOP" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
                     OOP
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Python</a>
-                    <a class="dropdown-item" href="#">Java</a>
+                    <a class="dropdown-item" href="/OOP">Python</a>
+                    <a class="dropdown-item" href="/OOP">Java</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">Authors</a>
+                <a class="nav-link" href="#">Contact Us</a>
             </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -40,9 +49,88 @@
     </div>
 </nav>
 
-//Introduce BootCamp
+<!--Introduce BootCamp-->
+
+<hr class="featurette-divider">
+
+<div class="container row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">Java Web Developer <br> <span class="text-muted">America's Promise</span>
+        </h2>
+        <p class="lead">The Java Web Developer Boot Camp is an 8 hour a day (9 am - 5 pm, M-F) 8-week, immersive
+            software engineering program funded by the Department of Labor. This course aims to increase the number of
+            skilled software developers in this country. We do this by accepting qualified candidates who cannot afford
+            the cost of a coding boot camp. If accepted into the program all fees will be covered by the program.</p>
+    </div>
+    <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+             role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"/>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+    </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="container row featurette">
+    <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Mobile Boot Camp <span class="text-muted">America's Promise  </span>
+        </h2>
+        <p class="lead">This boot camp is designed for students that want to make a start of mobile development. it
+            is comprised of two modules, iPhone/iPad Development with Swift, and Android Development with Kotlin. By
+            the end of the boot camp, the student should be ready to write mobile applications for either of the
+            leading mobile platforms: iOS and Android.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+             role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"/>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+    </div>
+</div>
+
+<hr class=" featurette-divider">
+
+<div class="container row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">Data Analytics Boot Camp <span class="text-muted">America's Promise</span>
+        </h2>
+        <p class="lead">This Data Analytics Bootcamp takes the student from data novice to data expert in this 1
+            week course. You will learn and apply basic data analysis tools including data mining and visualization.
+            Learn Python, R including its advanced data analysis tools. This bootcamp is designed to help you
+            whether you are considering a career in data, work in a context where supervisors are looking to you for
+            data insights, or you just have some burning questions you want to explore. No prior experience is
+            required. By the end you will have mastered statistical methods to conduct original research to inform
+            complex decisions.</p>
+    </div>
+    <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+             role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"/>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+        </svg>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- /end introduce bootcamp-->
 
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
