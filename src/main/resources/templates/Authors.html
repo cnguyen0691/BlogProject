@@ -12,7 +12,7 @@
 <body>
 <!--Using navigation bar-->
 <nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/home">Blog Project</a>
+    <a class="navbar-brand" href="/home" style="font-family: cursive; color: lightskyblue">Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link " href="/Authors">Authors</a>
+                <a class="nav-link " href="/home">Home</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/home">Bootcamp <span class="sr-only">(current)</span></a>
+            <li class="nav-item ">
+                <a class="nav-link" href="/Authors">Authors</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/github">GitHub</a>
+                <a class="nav-link" href="/bootcamp">Bootcamp</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -37,10 +37,11 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/OOP">Python</a>
                     <a class="dropdown-item" href="/OOP">Java</a>
+                    <a class="dropdown-item" href="/OOP"> GitHub</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="/Authors">Contact Us</a>
             </li>
 
         </ul>
@@ -50,19 +51,23 @@
         </form>
     </div>
 </nav>
+<!--end nav-->
+
 <!--introduce-->
 <div class="container marketing">
 
     <!-- Two columns of text below the carousel -->
     <div class="row ">
         <div class="col-lg-6">
-            <img class="bd-placeholder-img rounded-circle" width="200" height="200"
+            <img class="bd-placeholder-img rounded-circle" style="display: block; margin: 0 auto" width="250" height="250"
                  src="https://avatars0.githubusercontent.com/u/46759592?s=460&v=4" focusable="false" role="img">
-            <h2>Chau Nguyen</h2>
+            <div class="bio">
+                <h2 style="color: royalblue; text-align: center">Chau Nguyen</h2>
             <p>Design and Code Web pages using user interface best practices, including accessibility
                 and usability using HTML, CSS, JavaScript and other scripting to develop well-designed
                 web and mobile web pages using Bootstrap Frameworks.</p>
-            <div> Web Developer
+            </div>
+            <div><h3> Web Developer</h3>
                 <ul>
                 <li>Work closely with senior developer to create an interactive website for a sport association that utilize CSS, HTML, and JavaScript </li>
                 <li>Experience in using Bootstrap framework to create responsive web pages </li>
@@ -70,21 +75,17 @@
                 <li>Starting in git commands to push and pull from GitHub repository</li>
             </ul>
             </div>
-            <div class="container social-network ">
-                <ul class="social-circle">
-                    <li>  <a href="https://github.com/cnguyen0691" class="GitHub" title="GitHub"><i class="fa fa-github"></i></a>
-                          <a href="https://www.linkedin.com/in/chaunguyen0691/" class="Linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
         </div><!-- /.col-lg-6 -->
         <div class="col-lg-6">
-            <img class="bd-placeholder-img rounded-circle" width="200" height="200"
+            <img class="bd-placeholder-img rounded-circle" width="250" height="250" style="display: block; margin: 0 auto"
                  src="https://avatars2.githubusercontent.com/u/38232330?s=460&v=4" focusable="false" role="img">
-            <h2>Betelihem Kabtiymer</h2>
+           <div class="bio">
+            <h2 style="color: royalblue; text-align: center">Betelihem Kabtiymer</h2>
             <p>I am a self-taught front-end developer. I primarily focus on website design and development to transform
                 a web-page from concept to completion, including post production site maintenance. My expertise include
                 organic Search Engine Optimization, Dreamweaver, Photoshop and LiteCommerce</p>
-            <div> Website Designs
+           </div>
+            <div> <h3>Website Designs</h3>
                 <ul>
                     <li>Deliberately selecting the appropriate colors, fonts and layouts to create the exact personality of a website </li>
                     <li>Utilizing appropriate underlying technologies to promote search engine optimization, usability, and website functionality  </li>
@@ -92,22 +93,31 @@
                     <li>Measuring and analyzing KPI such as Audience growth, impressions, content reach, leads and quality</li>
                 </ul>
             </div>
-            <div class="container social-network ">
-                <ul class="social-circle">
-                    <li> <a href="https://github.com/" class="GitHub" title="GitHub"><i class="fa fa-github"></i></a>
-                        <a href="#" class="Linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-        </div>
+
         </div><!-- /.col-lg-6 -->
     </div><!-- /.row -->
+</div>
+
+<div class="container row">
+    <div class="col-md-6 social-network " >
+        <ul class="social-circle">
+            <li>  <a href="https://github.com/cnguyen0691" class="GitHub" title="GitHub"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chaunguyen0691/" class="Linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-6 social-network ">
+        <ul class="social-circle">
+            <li> <a href="https://github.com/" class="GitHub" title="GitHub"><i class="fa fa-github"></i></a>
+                <a href="#" class="Linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</div>
 
 
 
 
 
-
-
-
+<!--JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>

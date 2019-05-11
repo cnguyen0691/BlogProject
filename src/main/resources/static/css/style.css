@@ -1,3 +1,11 @@
+
+.bio{
+    padding-top: 50px;
+}
+.home{
+    padding: 50px;
+}
+
 .social-network {
     display: inline;
     list-style-type: none;
@@ -11,13 +19,12 @@
 .social-network li {
     display: inline-block;
     margin: 0 5px;
-
 }
 .social-network a.Facebook:hover {
     background-color:#3B5998;
 }
 .social-network a.Google:hover {
-    background-color:#BD3518;
+    background-color: #bd3518;
 }
 .social-network a.Linkedin:hover {
     background-color:#007bb7;
@@ -72,5 +79,4 @@
     padding: 9px;
     color: antiquewhite;
     margin: 10px 10px 12px;
-
 }

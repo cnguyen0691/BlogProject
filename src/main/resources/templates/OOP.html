@@ -9,7 +9,7 @@
 <body>
 <!--Using navigation bar-->
 <nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/home">Blog Project</a>
+    <a class="navbar-brand" href="/home" style="font-family: cursive; color: lightskyblue">Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,13 +18,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link " href="/Authors">Authors</a>
+                <a class="nav-link " href="/home">Home</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/home">Bootcamp <span class="sr-only">(current)</span></a>
+            <li class="nav-item ">
+                <a class="nav-link" href="/Authors">Authors</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/github">GitHub</a>
+                <a class="nav-link" href="/bootcamp">Bootcamp</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -34,10 +34,11 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/OOP">Python</a>
                     <a class="dropdown-item" href="/OOP">Java</a>
+                    <a class="dropdown-item" href="/OOP"> GitHub</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="/Authors">Contact Us</a>
             </li>
 
         </ul>
@@ -47,6 +48,7 @@
         </form>
     </div>
 </nav>
+<!--end nav-->
 
 <!--Python-->
 
@@ -55,20 +57,71 @@
 
     <div class=" row featurette">
         <div class=" col-md-7">
-            <h2 class="featurette-heading">Object Oriented Programming <br> <span class="text-muted">Python Programming</span>
+            <h2 class="featurette-heading">Object Oriented Programming <br> <span
+                    class="text-muted">Python Programming</span>
             </h2>
             <p class="lead">Python (programming language) Python is an interpreted, high-level, general-purpose
                 programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy
                 emphasizes code readability with its notable use of significant whitespace.</p>
             <p><a class="btn btn-secondary"
                   href="https://www.python.org/about/gettingstarted/"
-                  role="button">For More Information &raquo;</a></p>
+                  role="button">More Information &raquo;</a></p>
         </div>
         <div class="col-md-5">
             <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="800"
-                 height="800" src="https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2018/02/Python-Applications-1.jpg" focusable="false" role="img">
+                 height="800"
+                 src="https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2018/02/Python-Applications-1.jpg"
+                 focusable="false" role="img">
         </div>
     </div>
 </div>
+
+
+<!--Github-->
+<div class="container">
+    <h2>Git</h2>
+    <p>When you set up a new machine, you only need to configure the author once.
+        If you run "git config -l" you'll see the existing configurations.
+        Run the following if you're doing this for the first time:</p>
+    <div class="study" style="padding: 30px; background-color: lightgray; border-radius: 30px;">
+        git config --global user.name "yourUsername"<br>
+        git config --global user.email yourEmail@domain.com
+    </div>
+
+    <div style="padding-top: 30px">
+        <p><a class="btn btn-secondary"
+              href="https://www.python.org/about/gettingstarted/"
+              role="button">More Information &raquo;</a></p>
+    </div>
+
+</div>
+
+
+<!--Java-->
+<div class="container">
+    <div>
+        <h2>Core Java vs. Java EE (Enterprise Edition)</h2>
+    </div>
+    <div>
+        <p>Core Java refers to Java SE. It includes the Java Language, the Java Virtual Machine (JVM) and Java
+            Development Kit (JDK). The JDK contains the compiler, some tools and a library. The library is called the
+            Java API (Application Programming Interface). It consists of classes developed by Oracle/Sun that go with
+            Java. Core Java is used for general purpose programming.</p>
+
+            <p>Enterprise Java refers to Java applications written to meet the needs of enterprises. An enterprise is an
+            organization rather than an individual user. Such organizations include businesses, schools, interest-based
+            user groups, clubs, charities, or governments. Java EE consists of a set of APIs (EJB, JMS, JPA, JTA, JSF
+            etc.) and the application servers (Glassfish, Tomcat, JBoss/WildFly etc.) which implement these APIs (or a
+            part of them).</p>
+    </div>
+    <div >
+        <p><a class="btn btn-secondary"
+              href="https://www.java.com/en/"
+              role="button">More Information &raquo;</a></p>
+    </div>
+</div>
+
+<!--servey-->
+
 </body>
 </html>
