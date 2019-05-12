@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 <body>
 <!--Using navigation bar-->
-<nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/home" style="font-family: cursive; color: lightskyblue">Blog</a>
+<nav class="Blog navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="/home">Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,18 +53,17 @@
 <!--end nav-->
 
 <!--Content-->
-<div class="container">
-    <div class="container "><h2
-            style="text-align: right; color:darkgreen; font-family: 'Apple Chancery', cursive">Blog Project</h2></div>
-    <div class="container " style="text-align: right">
-        <input style="background-color:aliceblue; text-align: center; font-family: 'Apple Braille' " type="text"
-               value="2019-05-10 11:00" readonly class="form_datetime">
+<div class="container home">
+    <div class="container homeh2">
+        <h2>Blog Project</h2></div>
+    <div class="container datetime">
+        <input size="16" type="text" value="2019-05-10 14:45" readonly class="form_datetime">
     </div>
     <div class="container row">
-        <div class="home col-md-5">
+        <div class=" col-md-5">
             <img src="/image/aboutus.jpeg" alt="Authors" width="300px" height="300px">
         </div>
-        <div class="home col-md-7">
+        <div class="col-md-7">
             <h3><b>About US</b></h3>
             <h5>Software Developer <span class="date">May 10, 2019</span></h5>
 
@@ -86,10 +86,10 @@
     </div>
     <hr>
     <div class="container row">
-        <div class="home col-md-5">
+        <div class=" col-md-5">
             <img src="/image/java.png" alt="Bootcamp" width="300px" height="300px">
         </div>
-        <div class="home col-md-7">
+        <div class=" col-md-7">
             <h3><b>Boot Camp</b></h3>
             <h5>Java Developer <span class="date">May 10, 2019</span></h5>
             <div class="container">
@@ -111,11 +111,11 @@
         </div>
     </div>
     <hr>
-    <div class="container row">
-        <div class="home col-md-5" style="padding: 30px;">
-            <img src="/image/langicon.jpeg" alt="Nature" width="300px" height="300px">
+    <div class="container row" style="padding-bottom: 20px">
+        <div class=" col-md-5" style="padding: 30px;">
+            <img src="/image/langicon.jpeg" alt="OOP" width="300px" height="300px">
         </div>
-        <div class="home col-md-7">
+        <div class=" col-md-7">
             <h3><b>Coding</b></h3>
             <h5><span class="date">May 10, 2019</span></h5>
 

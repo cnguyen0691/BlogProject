@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 <body>
 <!--Using navigation bar-->
-<nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/home" style="font-family: cursive; color: lightskyblue">Blog</a>
+<nav class="Blog navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="/home" >Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,8 +53,15 @@
 <!--end nav-->
 
 <!--Introduce BootCamp-->
-
+<div class="container" style="padding-top: 100px; text-align: center">
+    <h1 style="font-family: cursive; color: dodgerblue">MC</h1>
+    <h2 style="color: mediumpurple; font-family: 'Apple Braille'; font-size: 60px;">Montgomery College</h2>
+</div>
+<div class="container " style="text-align: left;padding-bottom: 10px;">
+    <input size="16" type="text" value="2019-05-10 14:45" readonly class="form_datetime">
+</div>
 <div class="introoduce container">
+
     <hr class="featurette-divider">
 
     <div class=" row featurette">
@@ -125,7 +132,7 @@
 
 <!--Social-->
 
- <div class="container social-network ">
+ <div class="container social-network " style="padding-bottom: 20px">
         <ul class="social-circle">
           <li>  <a href="https://www.facebook.com" class="Facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
             <a href="https://www.google.com" class="Google" title="Google +"><i class="fa fa-google-plus"></i></a>

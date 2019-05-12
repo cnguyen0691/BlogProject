@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="/css/style.css" rel="stylesheet">
 
 </head>
-<body>
+<body class="author">
 <!--Using navigation bar-->
-<nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/home" style="font-family: cursive; color: lightskyblue">Blog</a>
+<nav class="Blog navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="/home" >Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,13 +54,18 @@
 <!--end nav-->
 
 <!--introduce-->
-<div class="container marketing">
-
+<div class="container home" >
+    <div class="container" style="text-align: center;padding-bottom: 20px; font-family: cursive; color: dodgerblue;">
+        <h1>About Us</h1>
+        <div class="container datetime "    >
+            <input size="16" type="text" value="2019-05-10 14:45" readonly class="form_datetime">
+        </div>
+    </div>
     <!-- Two columns of text below the carousel -->
     <div class="row ">
         <div class="col-lg-6">
-            <img class="bd-placeholder-img rounded-circle" style="display: block; margin: 0 auto" width="250" height="250"
-                 src="https://avatars0.githubusercontent.com/u/46759592?s=460&v=4" focusable="false" role="img">
+            <img class="rounded-circle" style="display: block; margin: 0 auto" width="250" height="250"
+                 src="https://avatars0.githubusercontent.com/u/46759592?s=460&v=4"  role="img">
             <div class="bio">
                 <h2 style="color: royalblue; text-align: center">Chau Nguyen</h2>
             <p>Design and Code Web pages using user interface best practices, including accessibility
@@ -77,8 +82,8 @@
             </div>
         </div><!-- /.col-lg-6 -->
         <div class="col-lg-6">
-            <img class="bd-placeholder-img rounded-circle" width="250" height="250" style="display: block; margin: 0 auto"
-                 src="https://avatars2.githubusercontent.com/u/38232330?s=460&v=4" focusable="false" role="img">
+            <img class=" rounded-circle" width="250" height="250" style="display: block; margin: 0 auto"
+                 src="https://avatars2.githubusercontent.com/u/38232330?s=460&v=4" role="img">
            <div class="bio">
             <h2 style="color: royalblue; text-align: center">Betelihem Kabtiymer</h2>
             <p>I am a self-taught front-end developer. I primarily focus on website design and development to transform
@@ -98,7 +103,7 @@
     </div><!-- /.row -->
 </div>
 
-<div class="container row">
+<div class="container row" style=" margin: 0 auto; padding-bottom: 20px">
     <div class="col-md-6 social-network " >
         <ul class="social-circle">
             <li>  <a href="https://github.com/cnguyen0691" class="GitHub" title="GitHub"><i class="fa fa-github"></i></a>

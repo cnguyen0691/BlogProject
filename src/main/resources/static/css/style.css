@@ -1,17 +1,8 @@
-
-.bio{
-    padding-top: 50px;
-}
-.home{
-    padding: 50px;
-}
-
 .social-network {
     display: inline;
     list-style-type: none;
     padding-top: 50px;
     text-align: center;
-
 }
 .social-circle{
     padding-top: 20px;
@@ -72,11 +63,23 @@
     transition: all 0.8s;
 
 }
-.study{
-    background-color: beige;
-    border-radius: 6px;
-    border: 1px solid;
-    padding: 9px;
-    color: antiquewhite;
-    margin: 10px 10px 12px;
+a.navbar-brand{
+    font-family: cursive;
+}
+.navbar-light .navbar-brand {
+     color: lightskyblue;
+}
+.home{
+    padding-top: 100px
+}
+.homeh2{
+    text-align: right; color:darkgreen;
+    font-family: 'Apple Chancery', cursive;
+}
+.datetime{
+    text-align: right;
+    padding-bottom: 10px;
+}
+.bio{
+    padding: 15px;
 }
