@@ -10,8 +10,8 @@
 </head>
 <body>
 <!--Using navigation bar-->
-<nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/home">Home</a>
+<nav class="Blog navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="/home">Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,12 +20,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link " href="/Authors">Authors</a>
+                <a class="nav-link " href="/home">Home</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/home">Bootcamp <span class="sr-only">(current)</span></a>
+            <li class="nav-item ">
+                <a class="nav-link" href="/Authors">Authors</a>
             </li>
-
+            <li class="nav-item">
+                <a class="nav-link" href="/bootcamp">Bootcamp</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="/OOP" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
@@ -34,6 +36,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/OOP">Python</a>
                     <a class="dropdown-item" href="/OOP">Java</a>
+                    <a class="dropdown-item" href="/OOP"> GitHub</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -47,25 +50,29 @@
         </form>
     </div>
 </nav>
+<!--end nav-->
 
-<div class="container homeh2">
-   </div>
+<!--contact us-->
+<div class="container" style="padding: 100px;">
 
 <div class="row ">
     <div class="col-lg-6">
         <h1>Contact Us</h1>
+        <div class="container datetime">
+            <input style="text-align: center" size="16" type="text" value="2019-05-10 14:45" readonly class="form_datetime">
+        </div><br>
         <h3>Let's Connect, We'd love to hear your feedback!</h3>
-<div class="form-group">
-    <label for="usr">Name:</label>
-    <input type="text" class="form-control" id="usr">
-</div>
-<div class="form-group">
-    <label for="email">E-mail Address:</label>
-    <input type="text" class="form-control" id=email>
-</div>
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail Address:</label>
+            <input type="text" class="form-control" id=email>
+        </div>
         <div class="form-group">
             <label for="comment">Comment:</label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <textarea class="form-control" rows="5" id="comment"></textarea><br>
             <button type="button" class="btn btn-outline-warning">Submit</button>
 
         </div>
@@ -82,6 +89,7 @@
             Saturday: 8:30 a.m. - 4:00 p.m.<br>
             240-567-5188</p>
     </div>
+</div>
 </div>
 </body>
 </html>
