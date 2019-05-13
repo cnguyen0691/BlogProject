@@ -21,11 +21,21 @@ public class HomeController {
     }
 
 
+    @RequestMapping("/bootcamp")
+    public String Bootcamp() {
+        return "bootcamp";
+    }
+
+
     @RequestMapping("/Authors")
     public String Authors() {
         return "Authors";
     }
 
+    @RequestMapping("/contactus")
+    public String Contact() {
+        return "contactus";
+    }
 
 }
 
