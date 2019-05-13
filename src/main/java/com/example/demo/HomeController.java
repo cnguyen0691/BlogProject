@@ -5,23 +5,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
-    @RequestMapping ("/home")
-    public String home(){
+    @RequestMapping("/home")
+    public String home() {
         return "home";
     }
-    @RequestMapping ("/Authors")
-    public String Authors(){
-        return "Authors";
+
+    @RequestMapping("/github")
+    public String github() {
+        return "github";
     }
-    @RequestMapping ("/bootcamp")
-        public String bootcamp(){
-            return "bootcamp";
-        }
-    @RequestMapping ("/OOP")
-    public String OOP(){
+
+    @RequestMapping("/OOP")
+    public String OOP() {
         return "OOP";
     }
 
+
+    @RequestMapping("/Authors")
+    public String Authors() {
+        return "Authors";
+    }
 
 
 }

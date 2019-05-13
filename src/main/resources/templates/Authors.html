@@ -5,14 +5,13 @@
     <title>Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body class="author">
+<body>
 <!--Using navigation bar-->
-<nav class="Blog navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="/home" >Blog</a>
+<nav class="Blog navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/home">Blog Project</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,27 +20,26 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link " href="/home">Home</a>
+                <a class="nav-link " href="/Authors">Authors</a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/Authors">Authors</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="/home">Bootcamp <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/bootcamp">Bootcamp</a>
+                <a class="nav-link" href="/github">GitHub</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="/OOP" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
                     OOP
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/OOP">Python</a>
                     <a class="dropdown-item" href="/OOP">Java</a>
-                    <a class="dropdown-item" href="/OOP"> GitHub</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Authors">Contact Us</a>
+                <a class="nav-link" href="#">Contact Us</a>
             </li>
 
         </ul>
@@ -51,86 +49,40 @@
         </form>
     </div>
 </nav>
-<!--end nav-->
-
 <!--introduce-->
-<div class="container home" >
-    <div class="container" style="text-align: center;padding-bottom: 20px; font-family: cursive; color: dodgerblue;">
-        <h1>About Us</h1>
-        <div class="container datetime "    >
-            <input size="16" type="text" value="2019-05-10 14:45" readonly class="form_datetime">
-        </div>
-    </div>
+<div class="container marketing">
+
     <!-- Two columns of text below the carousel -->
+    <h1> Meet the Authors</h1>
     <div class="row ">
         <div class="col-lg-6">
-            <img class="rounded-circle" style="display: block; margin: 0 auto" width="250" height="250"
-                 src="https://avatars0.githubusercontent.com/u/46759592?s=460&v=4"  role="img">
-            <div class="bio">
-                <h2 style="color: royalblue; text-align: center">Chau Nguyen</h2>
-            <p>Design and Code Web pages using user interface best practices, including accessibility
-                and usability using HTML, CSS, JavaScript and other scripting to develop well-designed
-                web and mobile web pages using Bootstrap Frameworks.</p>
-            </div>
-            <div><h3> Web Developer</h3>
-                <ul>
-                <li>Work closely with senior developer to create an interactive website for a sport association that utilize CSS, HTML, and JavaScript </li>
-                <li>Experience in using Bootstrap framework to create responsive web pages </li>
-                <li>Write code that adheres to standards and best practices </li>
-                <li>Starting in git commands to push and pull from GitHub repository</li>
-            </ul>
-            </div>
+            <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="https://avatars0.githubusercontent.com/u/46759592?s=460&v=4"  focusable="false" role="img" >
+            <h2>Chau Nguyen</h2>
+            <p>Chau designs and Codes Web pages using user interface best practices, including accessibility and usability using HTML, CSS, JavaScript and other scripting to develop well-designed web and mobile web pages using Bootstrap Frameworks.</p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/chaunguyen0691/" role="button">View LinkedIn Profile &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://github.com/cnguyen0691" role="button">Github Profile &raquo;</a></p>
         </div><!-- /.col-lg-6 -->
         <div class="col-lg-6">
-            <img class=" rounded-circle" width="250" height="250" style="display: block; margin: 0 auto"
-                 src="https://avatars2.githubusercontent.com/u/38232330?s=460&v=4" role="img">
-           <div class="bio">
-            <h2 style="color: royalblue; text-align: center">Betelihem Kabtiymer</h2>
-            <p>I am a self-taught front-end developer. I primarily focus on website design and development to transform
-                a web-page from concept to completion, including post production site maintenance. My expertise include
-                organic Search Engine Optimization, Dreamweaver, Photoshop and LiteCommerce</p>
-           </div>
-            <div> <h3>Website Designs</h3>
-                <ul>
-                    <li>Deliberately selecting the appropriate colors, fonts and layouts to create the exact personality of a website </li>
-                    <li>Utilizing appropriate underlying technologies to promote search engine optimization, usability, and website functionality  </li>
-                    <li>Introducing brand development projects, Identifying and recording attributes of target customers and tracking content and engagement progress  </li>
-                    <li>Measuring and analyzing KPI such as Audience growth, impressions, content reach, leads and quality</li>
-                </ul>
-            </div>
+            <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="https://avatars2.githubusercontent.com/u/38232330?s=460&v=4"  focusable="false" role="img">
+            <h2>Betty Kabtiymer</h2>
+            <p>Betty is a self-taught front-end developer. She primarily focus on website design and development to transform a web-page from concept to completion, including post production site maintenance. Her expertise include organic Search Engine Optimization, Dreamweaver, Photoshop</p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/betelihemkabtiymer" role="button">View LinkedIn Profile &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://github.com/bkabtiymer" role="button">Github Profile &raquo;</a></p>
 
         </div><!-- /.col-lg-6 -->
+
     </div><!-- /.row -->
-</div>
-
-<div class="container row" style=" margin: 0 auto; padding-bottom: 20px">
-    <div class="col-md-6 social-network " >
-        <ul class="social-circle">
-            <li>  <a href="https://github.com/cnguyen0691" class="GitHub" title="GitHub"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/chaunguyen0691/" class="Linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-    </div>
-    <div class="col-md-6 social-network ">
-        <ul class="social-circle">
-            <li> <a href="https://github.com/" class="GitHub" title="GitHub"><i class="fa fa-github"></i></a>
-                <a href="#" class="Linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-    </div>
-</div>
 
 
 
-
-
-<!--JS-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
